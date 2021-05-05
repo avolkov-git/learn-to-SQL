@@ -48,7 +48,6 @@ CREATE TABLE friendship_statuses (
     name VARCHAR(150) NOT NULL UNIQUE,
     created_at DATETIME DEFAULT current_timestamp,
     updated_at DATETIME DEFAULT current_timestamp ON UPDATE current_timestamp
-    
 );
 
 CREATE TABLE friendships(
